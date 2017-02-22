@@ -1,0 +1,27 @@
+public_html/wordpress/# Created by .ignore support plugin (hsz.mobi)
+### WordPress template
+*.log
+.DS_Store
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+
+/core/
+/var/*
+!/var/themes/
+/var/themes/*
+!/var/themes/coffeehot/
+/var/themes/coffeehot/.sass-cache/
+/var/themes/coffeehot/style.css
+!/var/themes/index.php
+!/var/plugins/
+/var/plugins/*
+!/var/plugins/index.php
+!/var/uploads/
+/var/uploads/*
+!/var/index.php
+
+/vendor/
+
+/parameters.php
+/composer.lock

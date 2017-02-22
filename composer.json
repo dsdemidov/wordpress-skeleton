@@ -1,0 +1,29 @@
+{
+    "name": "dsdemidov/wordpress-skeleton",
+    "description": "",
+    "type": "project",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^4.7",
+        "wpackagist-plugin/all-in-one-seo-pack":"*",
+        "wpackagist-plugin/breadcrumb-navxt":"*",
+        "wpackagist-plugin/contact-form-7":"*",
+        "wpackagist-plugin/cyr-and-lat":"*",
+        "wpackagist-plugin/motopress-content-editor-lite":"*",
+        "wpackagist-plugin/motopress-slider-lite":"*",
+        "wpackagist-plugin/popup-maker":"*",
+        "wpackagist-plugin/regenerate-thumbnails":"*",
+        "wpackagist-plugin/tinymce-advanced":"*"
+    },
+    "extra": {
+        "wordpress-install-dir": "core",
+        "installer-paths": {
+            "/var/plugins/{$name}/": ["vendor:wpackagist-plugin"]
+        }
+    }
+}

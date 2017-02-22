@@ -1,0 +1,25 @@
+.motopress-column-layout {
+  @include container();
+  .motopress-posts-grid-thumbnail-wrapper {
+    @include span( 3 );
+  }
+  .motopress-posts-grid-extras-wrapper {
+    @include span( 9 last );
+  }
+}
+.motopress-posts-grid-obj .motopress-posts-grid-carousel.hentry {
+  text-align: center;
+  margin-bottom: 3em !important;
+  a.motopress-posts-grid-thumbnail {
+    float: none !important;
+    width: 100%;
+    margin: 0;
+    display: block;
+    &>img {
+      float: none;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+}

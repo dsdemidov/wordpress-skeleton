@@ -1,0 +1,21 @@
+<?php
+/**
+ *  Environment specific parameters
+ */
+/** The name of the database for WordPress */
+define('DB_NAME', '~');
+
+/** MySQL database username */
+define('DB_USER', '~');
+
+/** MySQL database password */
+define('DB_PASSWORD', '~');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+
+define('WP_DEBUG', false);
+
+define('WP_HOME','~');
+define('WP_SITEURL','~/core');
+define( 'WP_CONTENT_URL', '~/var' );

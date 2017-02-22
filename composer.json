@@ -23,7 +23,7 @@
     "extra": {
         "wordpress-install-dir": "core",
         "installer-paths": {
-            "/var/plugins/{$name}/": ["vendor:wpackagist-plugin"]
+            "var/plugins/{$name}/": ["vendor:wpackagist-plugin"]
         }
     }
 }
